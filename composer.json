@@ -29,8 +29,8 @@
     "php": ">=5.6"
   },
   "autoload": {
-    "psr-0": {
-      "Fragen\\Singleton\\": ""
-    }
+    "classmap": [
+      "Singleton.php"
+    ]
   }
 }
