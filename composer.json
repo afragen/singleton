@@ -1,6 +1,6 @@
 {
   "name": "afragen/singleton",
-  "description": "A singleton static proxy",
+  "description": "A singleton static proxy generator.",
   "type": "library",
   "keywords": [
     "wordpress",
@@ -22,9 +22,6 @@
     }
   ],
   "prefer-stable": true,
-  "config": {
-    "*": "dist"
-  },
   "require": {
     "php": ">=5.6"
   },
