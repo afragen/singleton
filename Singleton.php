@@ -23,7 +23,6 @@ if ( ! class_exists( 'Fragen\\Singleton' ) ) {
 	 *
 	 * A static proxy for creating Singletons from passed class names.
 	 *
-	 * @version 1.0.0
 	 */
 	final class Singleton {
 		/**
