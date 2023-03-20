@@ -44,9 +44,6 @@ if ( ! class_exists( 'Fragen\\Singleton' ) ) {
 				$instance[ $class ] = new $class( $options );
 			}
 
-			// Add calling object.
-			$instance[ $class ]->caller = $caller;
-
 			return $instance[ $class ];
 		}
 

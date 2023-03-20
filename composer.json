@@ -1,7 +1,7 @@
 {
   "name": "afragen/singleton",
   "description": "A singleton static proxy generator.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "library",
   "keywords": [
     "wordpress",
@@ -28,9 +28,7 @@
   },
   "autoload": {
     "classmap": [
-      "Singleton.php",
-      "Singleton_Extends.php",
-      "Singleton_Trait.php"
+      "Singleton.php"
     ]
   }
 }
