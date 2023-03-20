@@ -70,7 +70,7 @@ if ( ! class_exists( 'Fragen\\Singleton' ) ) {
 			foreach ( $classes as $namespace ) {
 				$namespaced_class = $namespace . '\\' . $class_name;
 				if ( class_exists( $namespaced_class ) ) {
-					return $namespaced_class;
+					return ltrim( $namespaced_class, '\\' );
 				}
 			}
 
